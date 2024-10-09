@@ -20,8 +20,11 @@ const JsUser = {
 // console.log(JsUser);
 
 
-JsUser.greetings = function(){
-    console.log(`Hello Js User ${this.name}`);
+JsUser.greeting = function(){
+    console.log(`Hello Js User, ${this.name}`);
     
 }
+
+console.log(JsUser["name"]);
+
 
